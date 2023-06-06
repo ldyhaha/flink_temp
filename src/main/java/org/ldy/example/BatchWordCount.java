@@ -33,6 +33,7 @@ public class BatchWordCount {
         // 5. 分组内聚合统计
         AggregateOperator<Tuple2<String, Long>> sum = wordAndOneUG.sum(1);
         System.out.println("hell git3");
+        System.out.println("hell git3");
         // 6. 打印结果
         sum.print();
     }
